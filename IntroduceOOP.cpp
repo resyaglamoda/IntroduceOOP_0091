@@ -8,7 +8,9 @@ public :
     float nilai;
 
     void prindata(){
-        
+        cout << "Nim : " << nama << endl;
+        cout << "Nama : " << nama << endl;
+        cout << "Nillai : " << nilai << endl;
     }
 };
 int main(){
