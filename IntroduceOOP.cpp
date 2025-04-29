@@ -7,12 +7,18 @@ public :
     string nama;
     float nilai;
 
-    void prindata(){
-        cout << "Nim : " << nama << endl;
+    void printData(){
+        cout << "Nim : " << nim << endl;
         cout << "Nama : " << nama << endl;
         cout << "Nillai : " << nilai << endl;
     }
 };
-int main(){
 
+int main(){
+    Mahasiswa mhs;
+    mhs.nim = 2024;
+    mhs.nama = "Resya";
+    mhs.nilai = 90.5;
+
+    mhs.printData();
 }
