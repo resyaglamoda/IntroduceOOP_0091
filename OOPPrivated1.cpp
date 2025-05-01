@@ -28,3 +28,8 @@ class Segitiga {
     }
 };
 
+int main() {
+    Segitiga s;
+    s.outputData();
+    return 0;
+}    
